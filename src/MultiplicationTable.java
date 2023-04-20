@@ -1,5 +1,6 @@
 public class MultiplicationTable {
       public static void main(String[] args) {
+          //Displaying elements of String
           //presentation prints
           System.out.println("Below is the Multiplication table prints as per requirement: ");
             int i = 1, j;
