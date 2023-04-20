@@ -1,5 +1,7 @@
 public class MultiplicationTable {
       public static void main(String[] args) {
+          //presentation prints
+          System.out.println("Below is the Multiplication table prints as per requirement: ");
             int i = 1, j;
             // using do-while loop to print multiplication table from 1 to 3
             do {
@@ -19,6 +21,7 @@ public class MultiplicationTable {
               System.out.print(i1 + " ");//print method for in same line
               i1 += 3;
           }while (i1 <= 9);
+
         }
     }
 

@@ -41,11 +41,11 @@ public class ArmStrongNumber {
         num=sc.nextInt();
         if(isArmstrong(num))
         {
-            System.out.print("The Number is Armstrong. ");
+            System.out.print(num + " is an Armstrong number. ");
         }
         else
         {
-            System.out.print("The Number is not Armstrong. ");
+            System.out.print(num+ " is not an Armstrong number. ");
         }
     }
 }
